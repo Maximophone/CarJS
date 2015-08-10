@@ -1,0 +1,28 @@
+#c
+{
+	border: 1px solid black;
+	position:absolute;
+	left:250px;
+}
+
+#info
+{
+	border: 1px solid black;
+	float:right;
+}
+
+#board
+{
+	border: 1px solid black;
+	float:left;
+}
+
+#board table svg
+{
+	border: 1px solid black;
+}
+
+#info td
+{
+	border: 1px solid black;
+}

@@ -1,0 +1,81 @@
+<html>
+<head>
+<script type="text/javascript" src = "MathLib.js"></script>
+<script type="text/javascript" src = "car.js"></script>
+<link rel="stylesheet" type="text/css" href="car.css">
+</head>
+<body>
+<div id = "graphics">
+<div id="board">
+<table>
+<tr>
+<td>Speed</td>
+<td id="speed"></td>
+<td id="speedgraphics">
+	<svg width="100px" height="20px"><rect height = "20" width = "0"></rect></svg>
+</td>
+</tr>
+<tr>
+<td>Acceleration</td>
+<td id="acc"></td>
+<td id="accgraphics">
+	<svg width="100px" height="20px"><rect height = "20" width = "0"></rect></svg>
+</td>
+</tr>
+<tr>
+<td>Throttle</td>
+<td id="throttle"></td>
+<td id="throttlegraphics">
+	<svg width="100px" height="20px"><rect height = "20" width = "0"></rect></svg>
+</td>
+</tr>
+</table>
+</div>
+<canvas id="c" width="700px" height="500px"></canvas>
+<table id="info">
+<tr>
+<td>Weight on front wheel</td>
+<td id="wfw"></td>
+</tr>
+<tr>
+<td>Weight on rear wheel</td>
+<td id="wrw"></td>
+</tr>
+<tr>
+<td>Engine Traction Force</td>
+<td id="etf"></td>
+</tr>
+<tr>
+<td>Braking Force</td>
+<td id="bf"></td>
+</tr>
+<tr>
+<td>Slip Angle Front Wheels</td>
+<td id="safw"></td>
+</tr>
+<tr>
+<td>Slip Angle Rear Wheels</td>
+<td id="sarw"></td>
+</tr>
+<tr>
+<td>Drag Force</td>
+<td id="df"></td>
+</tr>
+<tr>
+<td>Road Resistance Force</td>
+<td id="rrf"></td>
+</tr>
+<tr>
+<td>Lateral Force on Front Wheels</td>
+<td id="lffw"></td>
+</tr>
+<tr>
+<td>Lateral Force on Rear Wheels</td>
+<td id="lfrw"></td>
+</tr>
+</table>
+</div>
+
+<script type="text/javascript" src = "main.js"></script>
+</body>
+</html>
